@@ -61,7 +61,6 @@ def help(parsed_moves):
 
 def game(moves):
     options = [str(i) for i in range(len(moves) + 1)] + ["?"]
-    print(options)
     parsed_moves = parse_moves(moves)
     help_message = help(parsed_moves)
 
